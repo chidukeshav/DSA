@@ -33,7 +33,7 @@ public class contains_valid_braces_or_n {
 		
 	
 	public static void main(String[] args) {
-		String s="{[]]";
+		String s="{[]}";
 		System.out.println(isvalidate(s));
 
 	}
