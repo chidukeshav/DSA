@@ -2,7 +2,7 @@ package Imp;
 
 import java.util.Stack;
 
-public class contains_valid_braces_or_n {
+public class ContaisValidBracesOrNot {
 	public static String isvalidate(String s) {
 		if(s.length()%2!=0) {
 			return "Invalid of length";
