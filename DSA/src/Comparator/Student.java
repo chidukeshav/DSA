@@ -1,0 +1,36 @@
+package Comparator;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+public class Student {
+	String name;
+	int age;
+	Student(String name,int age){
+		this.name=name;
+		this.age=age;
+		
+	}
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", age=" + age + "]";
+	}
+	
+	public static void main(String[] args) {
+		Comparator<Student> com=(Student a,Student b)->(a.age>b.age)?1:-1;
+		Student s1=new Student("Mithun",25);
+		Student s2=new Student("Sharath",23);
+		
+		List<Student>l=new ArrayList<Student>(Arrays.asList(s1,s2));
+		Collections.sort(l,com);
+		
+		l.forEach((no)->System.out.println(no));
+	}
+	
+	
+
+}
