@@ -77,7 +77,7 @@ public class sda_string {
 		sd.searchbyval("hbygy");
 		//sd.searchbyIndex(2);
 		//sd.traversal();
-		//sd.Deletebyindex(2);
+		sd.Deletebyindex(2);
 	}
 
 }
