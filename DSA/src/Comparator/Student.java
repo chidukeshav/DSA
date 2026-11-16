@@ -10,10 +10,14 @@ import java.util.List;
 public class Student {
 	String name;
 	int age;
+	public int id;
 	Student(String name,int age){
 		this.name=name;
 		this.age=age;
 		
+	}
+	public Student(int i, String string, String string2) {
+		// TODO Auto-generated constructor stub
 	}
 	@Override
 	public String toString() {
