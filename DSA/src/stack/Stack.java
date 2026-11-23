@@ -40,7 +40,7 @@ public class Stack {
 		if(isEmpty()) {
 			System.out.println("Empty");
 		}else {
-			System.out.println("The value is"+stack[top]+" top");
+			System.out.println("The value is"+stack+" top");
 		}
 		
 	}
