@@ -1,10 +1,10 @@
 package stack;
 
-public class Stack {
+public class Stack1 {
 	int[] stack;
 	int top;
 
-	public Stack(int size) {
+	public Stack1(int size) {
 
 		stack = new int[size];
 		top = -1;
@@ -51,7 +51,7 @@ public class Stack {
 	
 
 	public static void main(String[] args) {
-		Stack s = new Stack(5);
+		Stack1 s = new Stack1(5);
 		//s.isEmpty();
 		s.push(10);
 		s.push(20);
